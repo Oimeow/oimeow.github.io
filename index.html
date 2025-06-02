@@ -1,0 +1,201 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Your Name</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#youtube">YouTube</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Intro Section -->
+  <section class="hero">
+    <div class="container">
+      <h2 class="hero-heading">High School Sophomore · Aspiring Physicist & Developer</h2>
+      <p class="hero-subheading">
+        Passionate about Physics, Astrophysics, and building interactive software experiences.  
+        Crafting emulators, Unity games, and educational content—all while strumming guitar chords and volunteering.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I am a high school sophomore graduating at the end of 10th grade to pursue advanced STEM opportunities earlier.
+            I’m applying for Fall 2026 admission to UC schools as a Physics/Astrophysics major. My formal coursework includes:
+          </p>
+          <ul>
+            <li>Calculus I–III, Linear Algebra, Differential Equations (college-level)</li>
+            <li>AP Physics 1, AP Computer Science A, Honors Chemistry 1–2</li>
+            <li>Teacher’s Assistant for AP Calculus in my sophomore year</li>
+          </ul>
+          <p>
+            Beyond academics, I run a science education YouTube channel with 450 subscribers and ~250k views,
+            play guitar, and volunteer regularly at a local senior home. I enjoy applying theoretical knowledge
+            through hands-on projects—whether writing emulators from scratch or designing cooperative Unity games.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="https://via.placeholder.com/300x300.png?text=Your+Photo" alt="Your Photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">Selected Projects</h2>
+
+      <div class="project-cards">
+        <!-- CHIP-8 Emulator -->
+        <div class="project-card">
+          <h3 class="project-title">CHIP-8 Emulator</h3>
+          <p>
+            Built a fully functional CHIP-8 interpreter in ~10 hours using Python.  
+            Features: opcode decoding, graphics rendering with Pygame, and input handling.
+          </p>
+          <a href="https://github.com/yourusername/chip8-emulator" class="button" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <!-- Game Boy Emulator -->
+        <div class="project-card">
+          <h3 class="project-title">Game Boy Emulator (WIP)</h3>
+          <p>
+            Developing a Game Boy emulator in Python/C++. Implemented CPU memory management, PPU mode states,
+            and functional input/output. Currently refining PPU timing and audio processing.
+          </p>
+          <a href="https://github.com/yourusername/gameboy-emulator" class="button" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <!-- Unity: Pest Patrol -->
+        <div class="project-card">
+          <h3 class="project-title">Pest Patrol (Unity)</h3>
+          <p>
+            Designed a cooperative pest control game in Unity.  
+            Implemented rat AI with state-based behavior (idle, wander, flee, chew) and dynamic reproduction.  
+            Players team up to protect environments from outbreaks.
+          </p>
+          <a href="https://github.com/yourusername/pest-patrol" class="button" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <!-- Unity: Emergency Response -->
+        <div class="project-card">
+          <h3 class="project-title">Emergency Department (Unity)</h3>
+          <p>
+            Reimagined a firemen-style emergency response game.  
+            Players complete chaotic missions—extinguishing fires, rescuing survivors, and managing resources.
+          </p>
+          <a href="https://github.com/yourusername/emergency-department" class="button" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+
+        <!-- Discord Bot for Minecraft Server -->
+        <div class="project-card">
+          <h3 class="project-title">Minecraft Server Discord Bot</h3>
+          <p>
+            Built a Python Discord bot to manage a local Minecraft server:
+            <ul>
+              <li>!startserver, !stopserver, !serverstatus commands</li>
+              <li>Monitors player join/leave events</li>
+              <li>Auto-shutdown if no players for 10 minutes</li>
+            </ul>
+          </p>
+          <a href="https://github.com/yourusername/minecraft-discord-bot" class="button" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Section -->
+  <section id="youtube" class="section youtube">
+    <div class="container">
+      <h2 class="section-title">YouTube Channel</h2>
+      <div class="youtube-content">
+        <div class="youtube-text">
+          <p>
+            On my YouTube channel, I create science education videos covering topics in physics, math, and computing.
+            To date, I’ve amassed over 250,000 views across 450 subscribers. Recent videos explore:
+          </p>
+          <ul>
+            <li>Explaining Multivariable Calculus concepts with visual animations</li>
+            <li>Discussing the Hubble tension and cosmological implications</li>
+            <li>Unity tutorials: setting up AI state machines and reproduction systems</li>
+          </ul>
+          <a href="https://www.youtube.com/yourchannel" class="button" target="_blank"
+            >Visit Channel</a
+          >
+        </div>
+        <div class="youtube-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>
+        I’m always open to collaboration, mentorship, or simply chatting about physics and code.  
+        Feel free to reach out:
+      </p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
